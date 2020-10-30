@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.9.0 on win32)" generated="20201030 16:40:49.063" rpa="false">
+<suite id="s1" name="AppiumProject" source="C:\Users\Training\Desktop\Selenium folder\RobotWorkspace\AppiumProject">
+<suite id="s1-s1" name="Nativeappsuite" source="C:\Users\Training\Desktop\Selenium folder\RobotWorkspace\AppiumProject\nativeappsuite">
+<suite id="s1-s1-s1" name="Nativeapptest" source="C:\Users\Training\Desktop\Selenium folder\RobotWorkspace\AppiumProject\nativeappsuite\nativeapptest.robot">
+<test id="s1-s1-s1-t1" name="WindowsApp">
+<kw name="Open Application" library="AppiumLibrary">
+<doc>Opens a new application to given Appium server.
+Capabilities of appium server, Android and iOS,
+Please check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md
+| *Option*            | *Man.* | *Description*     |
+| remote_url          | Yes    | Appium server url |
+| alias               | no     | alias             |</doc>
+<arguments>
+<arg>remote_url=http://localhost:4723/wd/hub</arg>
+<arg>platformName=windows</arg>
+<arg>deviceName=pixel 2</arg>
+<arg>app=C:\\Windows\\system32\\notepad.exe</arg>
+</arguments>
+<status status="PASS" starttime="20201030 16:40:49.369" endtime="20201030 16:40:52.152"></status>
+</kw>
+<status status="PASS" starttime="20201030 16:40:49.368" endtime="20201030 16:40:52.153" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20201030 16:40:49.152" endtime="20201030 16:40:52.153"></status>
+</suite>
+<status status="PASS" starttime="20201030 16:40:49.148" endtime="20201030 16:40:52.155"></status>
+</suite>
+<status status="PASS" starttime="20201030 16:40:49.117" endtime="20201030 16:40:52.157"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="AppiumProject">AppiumProject</stat>
+<stat pass="1" fail="0" id="s1-s1" name="Nativeappsuite">AppiumProject.Nativeappsuite</stat>
+<stat pass="1" fail="0" id="s1-s1-s1" name="Nativeapptest">AppiumProject.Nativeappsuite.Nativeapptest</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
